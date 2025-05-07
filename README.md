@@ -23,7 +23,7 @@ O **Mercado** oferece um painel interativo que exibe cotações do **dólar**, *
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/mercado.git
+   git clone https://github.com/cezardsilva/mercado.git
 
 2. Abra o arquivo index.html em um navegador.
 
