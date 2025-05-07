@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+        <title>Mercados</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="LI39MCGf56zGSVZDtdtUhrDh32iZGeQbjqRnBook26A" />
+        <!-- Google Analytics -->
+        <script>
+                (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                                (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+                ga('create', 'UA-141653114-1', 'auto');
+                ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="bodyOpen()">
+        <h1>Cotação de Moedas</h1>
+        <div class="container1">
+                <div><button class="dolar" title="dolar">d</button><label class="nowd">D&oacute;lar Compra:
+                        </label><span></span><span id="usdbid"></span></div>
+                <div><button class="dolar" title="dolar">d</button><label class="nowd">D&oacute;lar Venda:
+                        </label><span></span><span id="usdask"></span></div>
+                <div><button class="dolar" title="dolar">d</button><label class="desc">D&oacute;lar M&aacute;xima:
+                        </label><span></span><span id="usdhigh"></span></div>
+                <div><button class="dolar" title="dolar">d</button><label class="desc">D&oacute;lar M&iacute;nima:
+                        </label><span></span><span id="usdlow"></span></div>
+                <div><label class="datlbl">Data: </label><span class="dat" id="tdolar"></span></div>
+                <hr class="rounded">
+                <div><button class="euro" title="euro">d</button><label class="now">Euro Compra:
+                        </label><span></span><span id="eubid"></span></div>
+                <div><button class="euro" title="euro">d</button><label class="now">Euro Venda:
+                        </label><span></span><span id="euask"></span></div>
+                <div><button class="euro" title="euro">d</button><label class="desc">Euro M&aacute;xima:
+                        </label><span></span><span id="euhigh"></span></div>
+                <div><button class="euro" title="euro">d</button><label class="desc">Euro M&iacute;nima:
+                        </label><span></span><span id="eulow"></span></div>
+                <div><label class="datlbl">Data: </label><span class="dat" id="teuro"></span></div>
+                <hr class="rounded">
+                <div><button class="btc" title="btc">d</button><label class="nowb">Bitcoin: </label><span></span><span
+                                id="btclast"></span></div>
+                <p></p>
+                <hr class="solid">
+                <div><button class="btc" title="btc">d</button><label class="nowb">Bitcoin USD:
+                        </label><span></span><span id="price"></span></div>
+                <hr class="solid">
+                <div><button class="btc" title="btc">d</button><label class="desc">Compra: </label><span></span><span
+                                id="btcbuy"></span></div>
+                <div><button class="btc" title="btc">d</button><label class="desc">Venda: </label><span></span><span
+                                id="btcsell"></span></div>
+                <div><button class="btc" title="btc">d</button><label
+                                class="desc">M&aacute;xima:</label><span></span><span id="btchigh"></span></div>
+                <div><button class="btc" title="btc">d</button><label
+                                class="desc">M&iacute;nima:</label><span></span><span id="btclow"></span></div>
+                <div><button class="btc" title="btc">d</button><label class="desc">Volume
+                                negociado:</label><span></span><span id="btcvol"></span></div>
+                <div><label class="datlbl">Data: </label><span class="dat" id="tbtc"></span></div>
+                <hr class="rounded">
+                <button id="full" class="expand" title="fullscreen" accesskey="L" onclick="openFullscreen()"
+                        type="button">[ ]</button>&nbsp;&nbsp;
+                <button id="compr" class="compress" title="normal" accesskey="O" onclick="closeFullscreen()"
+                        type="button">][</button>
+                <div><span style="color: #161A25;">Fullscreen</div>
+        </div>
+
+        <!-- /////////////////////// -->
+        <iframe id="frame" src="Gmercado.html" frameBorder="0" width="100%" height="320" scrolling="no"></iframe>
+
+        <script src="./script.js"></script>
+        <script>
+                // Revisão do script
+                window.addEventListener("load", function() {
+                    console.log("rev 1.0");
+                });
+        </script>
+</body>
+
+</html>

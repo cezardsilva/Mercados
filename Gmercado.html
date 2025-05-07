@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <style type="text/css">
+       body {
+       	background: #161A25;
+       }	
+       .tradingview-widget-copyright {
+       	visibility: hidden;
+       }
+       .tv-text {
+       	color: ;
+       	visibility: hidden !important;
+       }
+
+       </style>
+
+
+</head>
+<body>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_d35c3"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/BTCBRL" rel="noopener" target="_blank"><span class="blue-text">Gráfico AAPL</span></a> por TradingView</div>
+  <script type="text/javascript">
+    InputStream is = new InputStream(untrustedFileName);
+    ZipInputStream zis = new ZipInputStream(new BufferedInputStream(is));
+    while((ZipEntry ze = zis.getNextEntry()) != null) {
+      File f = new File(DIR, ze.getName());
+      String canonicalPath = f.getCanonicalPath();
+      if (!canonicalPath.startsWith(DIR)) {
+      // SecurityException
+      }
+    // Finish unzipping…
+    }
+  </script>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 678,
+  "height": 320,
+  "symbol": "BTCBRL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "dark",
+  "style": "1",
+  "locale": "br",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_d35c3"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+</body>
+</html>
+
