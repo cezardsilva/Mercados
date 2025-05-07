@@ -25,7 +25,7 @@ O **Mercado** oferece um painel interativo que exibe cotações do **dólar**, *
    ```sh
    git clone https://github.com/cezardsilva/mercado.git
 
-2. Abra o arquivo index.html em um navegador.
+2. Abra <a href="https://www.cdsconsulting.com.br/mercado/" target="_blank">Mercados</a> em um navegador.
 
 3. Veja as cotações atualizadas automaticamente.
 
