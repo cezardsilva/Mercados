@@ -39,7 +39,7 @@ O **Mercado** oferece um painel interativo que exibe cotações do **dólar**, *
 
 📝 Licença
 
-Este projeto está sob a licença MIT. Veja mais detalhes em https://LICENSE
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 ---
 Desenvolvido por [Cezar D Silva](https://github.com/cezardsilva)
